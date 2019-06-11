@@ -60,8 +60,8 @@
 
     <ImageView
         android:id="@+id/twitterLogo2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
@@ -69,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/twitter" />
+        app:srcCompat="@drawable/twitter2" />
 
     <Button
         android:id="@+id/btn2SignUp"
