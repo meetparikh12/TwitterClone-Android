@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TwitterUsers"></activity>
+        <activity android:name=".SendingTweetActivity"></activity>
+        <activity android:name=".TwitterUsers" />
         <activity android:name=".LogInActivity" />
         <activity android:name=".SignUpActivity">
             <intent-filter>

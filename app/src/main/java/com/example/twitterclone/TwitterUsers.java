@@ -34,7 +34,7 @@ public class TwitterUsers extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_twitter_users);
         FancyToast.makeText(this,"Welcome " +ParseUser.getCurrentUser().getUsername(),Toast.LENGTH_SHORT,FancyToast.INFO,true).show();
-        listView = findViewById(R.id.listView);
+        listView = findViewById(R.id.myListView);
         arrayList = new ArrayList<>();
         arrayAdapter = new ArrayAdapter<>(TwitterUsers.this,android.R.layout.simple_list_item_checked, arrayList);
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
@@ -106,6 +106,9 @@ public class TwitterUsers extends AppCompatActivity {
             ParseUser.getCurrentUser().logOut();
             finish();
             startActivity(new Intent(TwitterUsers.this,SignUpActivity.class));
+        }else if(item.getItemId()==R.id.sendTweet){
+            Intent intent = new Intent(TwitterUsers.this,SendingTweetActivity.class);
+            startActivity(intent);
         }
 
 
