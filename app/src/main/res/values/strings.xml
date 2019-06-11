@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TwitterClone</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="logout">Logout</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">Lzvo5QanFlXCBcZaENFJg0zxtjnppHVoJ6XzZlH1</string>
+    <string name="back4app_client_key">mpYRj4w1zTk9p4q3LMLYrr5SZlv90mwSmYOjTXZz</string>
+</resources>
